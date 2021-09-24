@@ -1,0 +1,4 @@
+[
+  { "caption": "GoLangFmtVet: Format Current File (go fmt)", "command": "go_fmt" },
+  { "caption": "GoLangFmtVet: Lint Current File (go vet)", "command": "go_vet" }
+]
