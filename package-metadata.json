@@ -1,0 +1,10 @@
+{
+    "description": "SublimeText4 (ST4) Plugin for Linting and Formatting Go Language Files on Save",
+    "version": "1.0.0",
+    "platforms": [
+        "*"
+    ],
+    "sublime_text": ">=4000",
+    "url": "https://packagecontrol.io/packages/GoLangFmtVet",
+    "dependencies": []
+}
