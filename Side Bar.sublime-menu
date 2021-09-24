@@ -1,0 +1,22 @@
+[
+  {
+    "caption": "-",
+    "id": "sidebar-menu-separator-1"
+  },
+  {
+    "caption": "Format File (go fmt)",
+    "id": "sidebar-menu-go-fmt",
+    "command": "side_bar_go_fmt",
+    "args": {
+      "paths": []
+    }
+  },
+  {
+    "caption": "Lint File (go vet)",
+    "id": "sidebar-menu-go-vet",
+    "command": "side_bar_go_vet",
+    "args": {
+      "paths": []
+    }
+  },
+]
