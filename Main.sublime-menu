@@ -1,0 +1,55 @@
+[
+  {
+    "id": "tools",
+    "children":
+    [
+      {
+        "caption": "GoLangFmtVet",
+        "children":
+        [
+          {
+            "caption": "Format File (go fmt)", 
+            "command": "go_fmt"
+          },
+          {
+            "caption": "Lint File (go vet)", 
+            "command": "go_vet"
+          }
+        ]
+      }
+    ]
+},
+{
+  "caption": "Preferences",
+  "mnemonic": "n",
+  "id": "preferences",
+  "children":
+  [
+    {
+        "caption": "Package Settings",
+        "mnemonic": "P",
+        "id": "package-settings",
+        "children":
+        [
+          {
+            "caption": "GoLangFmtVet",
+            "children":
+            [
+              {
+                "command": "open_file",
+                "args": {"file": "${packages}/GoLangFmtVet/GoLangFmtVet.sublime-settings"},
+                "caption": "Settings – Default"
+              },
+              {
+                "command": "open_file",
+                "args": {"file": "${packages}/User/GoLangFmtVet.sublime-settings"},
+                "caption": "Settings – User"
+              },
+              { "caption": "-" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
